@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="project_1.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Find Your Luck Today</title>
+  <link rel="stylesheet" href="project_1.css" />
 </head>
-<body style="background-color: rgb(202, 233, 223);">
-    <div>
-        <h1 class="head"> FIND YOUR LUCK TODAY</h1>
-    <h1 id="result"></h1>
-    <button id="button">click here </button>
-    
-    <FOOter>NOTE: <U>first try is only considered as your luck for the day</U></FOOter>
+<body>
+  <div class="container">
+    <h1 class="head">🌟 Find Your Luck Today 🌟</h1>
 
+    <h2 id="result">Click below to reveal your luck!</h2>
+    
+    <!-- Luck Progress Bar -->
+    <div class="progress-container">
+      <div id="luck-bar" class="progress-bar"></div>
     </div>
-    <script src="project_1.js"></script>
+
+    <!-- Quote or Tip -->
+    <p id="tip" class="tip"></p>
+
+    <div class="btn-container">
+      <button id="button">🎲 Try Your Luck</button>
+      <button id="reset">🔁 Reset</button>
+      <button id="share">📤 Share</button>
+    </div>
+
+    <footer>
+      NOTE: <span class="note">First try is final — no cheating! 😉</span>
+    </footer>
+  </div>
+
+  <script src="project_1.js"></script>
 </body>
 </html>
